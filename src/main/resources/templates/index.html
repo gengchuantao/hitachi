@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 class="text-center">login</h1>
+<label>username:<input type="text" /></label>
+<label>password:<input type="password"></label>
+<button style="background-color: aqua">登陆</button>
+<div id="app">
+    {{message}}
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script type="text/javascript">
+    let app=new Vue({
+        el: '#app',
+        data:{
+            message:'hello Vue!'
+        }
+    })
+</script>
+</html>
